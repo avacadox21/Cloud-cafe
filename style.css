@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
+
+
+body{
+    background-color: #48ad0d;
+    background-image: url("https://img.freepik.com/free-photo/empty-wood-table-top-abstract-blurred-restaurant-cafe-background-can-be-used-display-montage-your-products_7191-916.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    background-blend-mode: multiply;
+    font-family: Itim;
+}
+
+h1{
+    color: #fff;
+    font-size: 64px;
+    letter-spacing: 20px;
+    margin-top: 80px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.content{
+    background: #fff;
+    max-width: 960px;
+    margin: 30px auto;
+    padding:  20px 30px;
+    border-radius: 10px 120px 10px 10px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    padding: 20px;
+    background: #f6f6f6;
+    font-size: 20px;
+    color: #555;
+    position: relative;
+    border-bottom: 1px solid #e6e6e6;
+    height: 46px;
+}
+
+li:nth-child(even){
+    padding: 20px;
+    background: #f2f2f2;
+}
+
+li span{
+    display: block;
+}
+
+li span:nth-child(2){
+    font-size: 16px;
+    margin-top: 6px;
+    color: #999;
+}
+
+li div{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-color: rgba(247, 131, 131, 0.6);
+    width: 40px;
+    text-align: center;
+    padding: 0px 0;
+    padding-bottom: 5px;
+    font-weight:  bold;
+    cursor:  pointer;
+    font-size: 25px;
+}
+
+form input{
+    float: left;
+    width: 38%;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    margin: 0 1%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: Grandstander;
+}
+
+form input:focus{
+    outline: none;
+    border-bottom: 3px solid #267e14;
+    padding-bottom: 8px;
+    transition: all ease 0.2s;
+}
+
+form:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+button{
+    border: 0;
+    background: rgb(106, 211, 180);
+    border-radius: 100px;
+    padding: 13px;
+    width: 14%;
+    box-shadow: -1px 0px 1px rgba(87, 9, 9, 0.1);
+    font-weight: bold;
+    font-family: Itim;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(228, 62, 62);
+}
+
+button:focus{
+    outline: none;
+    background-color: #267e14;
+}
